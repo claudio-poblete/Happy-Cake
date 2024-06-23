@@ -1,0 +1,45 @@
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #4B2E26;
+  color: #FFFAFA;
+}
+
+.links__container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+}
+
+.links{
+  text-decoration: none;
+  color: #FFFAFA;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  gap: 0.2rem;
+}
+
+.logo{
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFAFA;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.links,
+.logo{
+  transition: .4s ease-in;
+}
+
+.links:hover,
+.logo:hover{
+  color: #D8BFD8;
+}
