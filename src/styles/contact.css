@@ -1,0 +1,69 @@
+.form__container,
+.form__group,
+.contact__section,
+.button__container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contact__section{
+  align-items: center;
+  gap: 0.8rem;
+  height: 80dvh;
+  justify-content: center;
+}
+
+.contact_title{ font-size: 2rem; }
+
+.form__container{
+  padding-top: 2rem;
+  gap: 1rem;
+  width: 50%;
+}
+
+.form__group{ gap: 0.5rem; }
+
+label{
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+input,
+textarea{
+  width: 100%;
+  padding: 12px;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+input{ height: 40px; }
+
+textarea{
+  height: 150px;
+  resize: none;
+}
+
+.button__container{ align-items: center; }
+
+.form__button{
+  width: 50%;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #4B2E26;
+  color: #FFFAFA;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  border: none;
+  transition: .4s ease-in-out;
+}
+
+.form__button:hover{
+  background-color: rgb(116, 103, 99);
+}
+
+.error {
+  color: #ff0000;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}

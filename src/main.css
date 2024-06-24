@@ -8,4 +8,10 @@
 body{
   font-family: "Montserrat", sans-serif;
   background-color: #FFFAFA;
+  color: #4B2E26;
+}
+
+*::selection{
+  background-color: #4B2E26;
+  color: #FFFAFA;
 }

@@ -1,6 +1,5 @@
 .home__section{
   align-items: center;
-  color: #4B2E26;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -34,7 +33,7 @@
   height: 200px;
   object-fit: cover;
   opacity: 0.8;
-  transition: .4s ease-in-out;
+  transition: .4s ease-in;
   width: 200px;
   border: solid 2px #4B2E26;
 }
